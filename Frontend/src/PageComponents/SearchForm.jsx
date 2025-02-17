@@ -54,7 +54,7 @@ const SearchForm = () => {
 
     try {
       const response = await axios.post(
-        "https://train-ticket-rmn1.onrender.com/api/trains/search-trains",
+        "http://localhost:2100/api/trains/search-trains",
         {
           fromStation: fromStation.station_code,
           toStation: toStation.station_code,
