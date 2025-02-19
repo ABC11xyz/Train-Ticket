@@ -42,7 +42,7 @@ The **Train Search Platform** is a web-based application that allows users to se
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB 
 
----
+
 
 ## 🚀 Installation & Setup
 
@@ -78,12 +78,6 @@ npm run dev
 5. Choose the best-suited option for your journey.
 
 
-
-## 🛠 Future Enhancements
-✅ Live train tracking feature.
-✅ User authentication for ticket booking.
-✅ Integration with real-time railway data APIs.
-✅ PNR status checking.
 
 ## 🤝 Contributing
 1. Fork the repository.
