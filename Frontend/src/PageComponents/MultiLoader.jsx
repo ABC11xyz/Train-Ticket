@@ -25,6 +25,7 @@ const MultiLoader = () => {
       It can take up to {timeLeft} second{timeLeft !== 1 ? "s" : ""}...
     </span>
       </p>
+      <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full"></div>
 
       {/* Dots Loader
       <div className="flex space-x-2">
