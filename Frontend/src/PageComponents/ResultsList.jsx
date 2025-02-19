@@ -3,7 +3,6 @@ import List from "../Components/List";
 import Multi from "../Components/Multi";
 import context from "../Context/context";
 import MultiLoader from "./MultiLoader";
-import { toast } from "react-toastify";
 
 const ResultsList = () => {
   const { direct, multi, fromStation, multiLoading, toStation } = useContext(context);

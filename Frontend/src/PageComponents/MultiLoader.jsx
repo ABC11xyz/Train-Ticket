@@ -1,10 +1,30 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 const MultiLoader = () => {
+
+  const [timeLeft, setTimeLeft] = useState(59);
+
+  useEffect(() => {
+    if (timeLeft === 0) return; 
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => prev - 1);
+    }, 1000);
+
+    return () => clearInterval(timer); 
+  }, [timeLeft]);
+
   return (
     <div className="flex flex-col items-center justify-center  space-y-6">
       {/* Spinner Loader */}
-      <div className="w-8 h-8 border-4   border-blue-500 border-t-transparent rounded-full animate-spin delay-150"></div>
+      <div className="w-8 h-8 border-4  border-blue-500 border-t-transparent rounded-full animate-spin delay-150"></div>
+      <p className="text-center text-lg  font-semibold text-blue-700">
+      <span className="animate-pulse">
+          Please wait! We’re finding the best options for you...
+        </span> <br />
+        <span className="animate-pulse">
+      It can take up to {timeLeft} second{timeLeft !== 1 ? "s" : ""}...
+    </span>
+      </p>
 
       {/* Dots Loader
       <div className="flex space-x-2">
