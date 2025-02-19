@@ -65,6 +65,9 @@ const SearchForm = () => {
       setError("Error fetching train data. Please try again later.");
       console.error("Error fetching train data:", error);
       setIsSearching(false);
+      setIsSearching(false);
+      setLoading(false);
+      setSearch(false);
       eventSource.close();
     };
   };
