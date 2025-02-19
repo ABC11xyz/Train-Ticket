@@ -24,7 +24,7 @@ The **Train Search Platform** is a web-based application that allows users to se
 
 
 
-## 📷 Results
+## 📷 Outcome
 
 ![Results](Results/A.png)
 
