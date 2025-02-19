@@ -7,7 +7,7 @@ import context from "../Context/context";
 import Loader from "../Components/Loader";
 
 const HomePage = () => {
-  const { trainResults, loading, search, error } = useContext(context);
+  const { direct , multi, loading, search, error , multiLoading } = useContext(context);
 
   return (
     <div className="bg-gradient-to-b from-[#00172E] to-[#05203C] min-h-screen text-white">
@@ -56,15 +56,15 @@ const HomePage = () => {
         </div>
       )}
 
-      <div className="flex flex-col justify-center items-center w-full h-screen px-4 sm:px-8 ">
+      <div className="flex flex-col justify-center items-center w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh] px-4 sm:px-8 ">
         {!search ? (
           <div
-            className="relative h-full w-full flex flex-col items-center justify-center"
-            style={{
-              backgroundImage: "url('welcome.jpg')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+          className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh] flex flex-col items-center justify-center rounded-lg"
+          style={{
+            backgroundImage: "url('Train2.cms')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
           >
             <div className="bg-black/50 absolute inset-0"></div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white z-10 relative">
@@ -78,10 +78,10 @@ const HomePage = () => {
           <div className="p-6 md:p-10 text-center bg-white text-gray-900 shadow-md rounded-lg w-full flex items-center justify-center">
             <Loader />
           </div>
-        ) : trainResults &&
-          (trainResults.directTrains.length > 0 ||
-            trainResults.multiTrainConnections.length > 0) ? (
-          <div className="p-6 md:p-10 bg-white text-gray-900 shadow-md rounded-lg w-full max-h-screen overflow-y-auto">
+        ) : (direct || multi || multiLoading) &&
+          (direct.length > 0 ||
+            multi.length > 0 || multiLoading) ? (
+          <div className="p-6 md:p-10 bg-gray-300 text-gray-900 shadow-md rounded-lg w-full max-h-screen overflow-y-auto">
             <ResultsList />
           </div>
         ) : (
