@@ -2,7 +2,7 @@
 
 The **Train Search Platform** is a web-based application that allows users to search for train availability, including direct and multi-train routes. It simplifies route planning by automatically finding the best options, displaying available seats, and estimating travel time.
 
----
+
 
 
 
@@ -15,7 +15,7 @@ The **Train Search Platform** is a web-based application that allows users to se
 - ⏳ **Estimated Travel Time**: Provides an estimated duration for the selected route.
 - 🗺 **User-Friendly Interface**: Simple and easy-to-use UI for quick searches.
 
----
+
 
 ## 📷 Screenshots
 
@@ -29,7 +29,7 @@ The **Train Search Platform** is a web-based application that allows users to se
 ![Seat Availability](screenshots/seat-availability.png)
 
 
----
+
 
 ## 🌍 Live Demo  
 🚀 **[Click here to visit the live site](https://train-ticket-rvn.vercel.app/)**
@@ -49,7 +49,7 @@ The **Train Search Platform** is a web-based application that allows users to se
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/ABC11xyz/Train-Ticket.git
-cd Train-Ticket
+cd Train-Ticket ```sh
 
 ### 2️⃣ Install Dependencies
 
