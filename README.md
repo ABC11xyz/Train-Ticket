@@ -49,7 +49,8 @@ The **Train Search Platform** is a web-based application that allows users to se
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/ABC11xyz/Train-Ticket.git
-cd Train-Ticket ```sh
+cd Train-Ticket
+```  
 
 ### 2️⃣ Install Dependencies
 
@@ -58,13 +59,15 @@ cd Train-Ticket ```sh
 cd Frontend
 npm install
 npm run dev
-
+```  
 
 #### For Backend:
 ```sh
 cd Backend
 npm install
 npm run dev
+``` 
+
 
 
 ## 📌 Usage

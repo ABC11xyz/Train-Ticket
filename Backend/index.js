@@ -12,17 +12,15 @@ const app = express();
 const PORT = process.env.PORT || 5100;
 
 const corsOptions = {
-  origin: [ "https://train-ticket-rvn.vercel.app/"], 
+  origin: [ "https://train-ticket-rvn.vercel.app"], 
   methods: ['GET', 'POST'], 
-  allowedHeaders: "Content-Type,Authorization"
+  allowedHeaders: "Content-Type,Authorization",
+  Credential : true
 };
 
 app.use(cors(corsOptions)); 
 app.use(express.json());
 
-app.get("/" , (req , res) => {
-res.send("Hello Ji ......");
-});
 
 app.use("/api/trains", TrainRoutes);
 
