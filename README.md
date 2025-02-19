@@ -26,16 +26,34 @@ The **Train Search Platform** is a web-based application that allows users to se
 
 ## 📷 Screenshots
 
-![SS](SS/A.png)
-![SS](SS/B.png)
-![SS](SS/C.png)
-![SS](SS/D.png)
-![SS](SS/E.png)
-![SS](SS/F.png)
-![SS](SS/G.png)
+![Results](Results/A.png)
+
+---
+
+![Results](Results/B.png)
+
+---
+
+![Results](Results/C.png)
+
+---
+
+![Results](Results/D.png)
+
+---
+
+![Results](Results/E.png)
+
+---
+
+![Results](Results/F.png)
+
+---
+
+![Results](Results/G.png)
 
 
-
+---
 
 
 ## 🌍 Live Demo  
