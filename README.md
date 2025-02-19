@@ -14,6 +14,13 @@ The **Train Search Platform** is a web-based application that allows users to se
 - 🏷 **Seat Availability**: Displays available seats for each train option.
 - ⏳ **Estimated Travel Time**: Provides an estimated duration for the selected route.
 - 🗺 **User-Friendly Interface**: Simple and easy-to-use UI for quick searches.
+- **Optimized Performance with Indexing**  
+  - Implemented database indexing to speed up query execution.  
+  - Ensures faster data retrieval for frequently accessed records.  
+- **Faster Data Streaming with SSE (Server-Sent Events)**  
+  - Instead of waiting for the entire dataset, results are sent one by one.  
+  - Improves user experience by displaying data as soon as it is available.  
+  - Reduces client-side waiting time for large queries.  
 
 
 
@@ -41,6 +48,8 @@ The **Train Search Platform** is a web-based application that allows users to se
 - **Frontend**: React.js 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB 
+- **Real-Time**: Server-Sent Events (SSE) 
+- **Optimization**: Database Indexing
 
 
 
