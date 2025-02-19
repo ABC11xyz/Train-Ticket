@@ -19,14 +19,14 @@ The **Train Search Platform** is a web-based application that allows users to se
 
 ## 📷 Screenshots
 
-### 🏠 Homepage
-![Homepage](screenshots/homepage.png)
+![SS](SS/A.png)
+![SS](SS/B.png)
+![SS](SS/C.png)
+![SS](SS/D.png)
+![SS](SS/E.png)
+![SS](SS/F.png)
+![SS](SS/G.png)
 
-### 🔍 Search Results
-![Search Results](screenshots/search-results.png)
-
-### 🚆 Seat Availability
-![Seat Availability](screenshots/seat-availability.png)
 
 
 
@@ -53,8 +53,7 @@ cd Train-Ticket
 ```  
 
 ### 2️⃣ Install Dependencies
-
-`  
+ 
 
 #### For Backend:
 ```sh
@@ -68,7 +67,7 @@ npm run dev
 cd Frontend
 npm install
 npm run dev
-``
+```
 
 
 ## 📌 Usage
