@@ -40,7 +40,7 @@ const SearchForm = () => {
     setDirect([]);
     setMulti([]);
     const eventSource = new EventSource(
-      `http://localhost:2100/api/trains/search-trains?fromStation=${fromStation.station_code}&toStation=${toStation.station_code}`
+      `https://train-ticket-rmn1.onrender.com/api/trains/search-trains?fromStation=${fromStation.station_code}&toStation=${toStation.station_code}`
     );
 
     eventSource.onmessage = (event) => {
