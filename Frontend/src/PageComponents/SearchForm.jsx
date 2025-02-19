@@ -39,8 +39,6 @@ const SearchForm = () => {
     setMultiLoading(true);
     setDirect([]);
     setMulti([]);
-
-    
     const eventSource = new EventSource(
       `http://localhost:2100/api/trains/search-trains?fromStation=${fromStation.station_code}&toStation=${toStation.station_code}`
     );
