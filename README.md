@@ -54,12 +54,7 @@ cd Train-Ticket
 
 ### 2️⃣ Install Dependencies
 
-#### For Frontend:
-```sh
-cd Frontend
-npm install
-npm run dev
-```  
+`  
 
 #### For Backend:
 ```sh
@@ -68,6 +63,12 @@ npm install
 npm run dev
 ``` 
 
+#### For Frontend:
+```sh
+cd Frontend
+npm install
+npm run dev
+``
 
 
 ## 📌 Usage

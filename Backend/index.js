@@ -12,10 +12,9 @@ const app = express();
 const PORT = process.env.PORT || 5100;
 
 const corsOptions = {
-  origin: [ "https://train-ticket-rvn.vercel.app"], 
+  origin: [ "http://localhost:5173"], 
   methods: ['GET', 'POST'], 
-  allowedHeaders: "Content-Type,Authorization",
-  Credential : true
+  credentials: true,
 };
 
 app.use(cors(corsOptions)); 
